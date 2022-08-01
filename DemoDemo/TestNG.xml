@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite">
+
+<test name="Login">
+<classes >
+<class name="login.Login"/>
+</classes>
+</test>
+</suite>
+<!-- <test name="PasswordOk">
+<parameter name="Username" value="standard_user"/>
+<parameter name="Password" value="secret_sauce"/>
+<classes>
+<class name="login.PasswordOk"/>
+</classes>
+</test>
+
+<test name="UserPassNotOk">
+<parameter name="Username" value="standard_use"/>
+<parameter name="Password" value="secret_sauc"/>
+<classes>
+<class name="login.UserPassNotOk"/>
+</classes>
+</test>
+
+<test name="BothOk">
+<parameter name="Username" value="standard_user"/>
+<parameter name="Password" value="secret_sauce"/>
+<classes>
+<class name="login.UsernamePasswordOk"/>
+</classes>
+</test>
+ -->
